@@ -1,0 +1,47 @@
+{
+    "students": [
+
+
+{
+  "FirstName": "Priya",
+  "LastNmae": "V",
+  "addresses": [
+                {
+                    "type": "perm",
+                    "street": "102",
+                    "apartment": "balaji apartments",
+                    "city": "hyd"
+                },
+                {
+                    "type": "current",
+                    "street": "102",
+                    "apartment": "balaji apartments",
+                    "city": "hyd"
+                }
+            ]
+         
+
+},
+
+     {
+                "FirstName": "Priya",
+                "LastNmae": "V",
+                "addresses": [
+                                {
+                                    "type": "perm",
+                                    "street": "102",
+                                    "apartment": "balaji apartments",
+                                    "city": "hyd"
+                                },
+                                {
+                                    "type": "current",
+                                    "street": "102",
+                                    "apartment": "balaji apartments",
+                                    "city": "hyd"
+                                }
+                            ]
+                        
+       } 
+       
+    ]  
+}

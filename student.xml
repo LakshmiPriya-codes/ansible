@@ -1,0 +1,49 @@
+
+<!--this is student object -->
+<Students>
+    <Student> 
+    <FirstName>LakshmiPriya</FirstName>
+    <LastName>V</LastName>
+    <dob>1995-07-21</dob>
+    <MobileNO>9356824781</MobileNO>
+    <!--<Adress>sai nagar, hyd, 54681</Adress> -->
+    <Addresses>
+        <PermAddress>
+                    <Street>101</Street>
+                    <AddressLine1>gandhi nagar</AddressLine1>
+                    <AddressLine2>4th cross</AddressLine2>
+                    <city>hyd</city>
+        </PermAddress>   
+
+        <CurrentAddress>
+                    <Street>101</Street>
+                    <AddressLine1>gandhi nagar</AddressLine1>
+                    <AddressLine2>4th cross</AddressLine2>
+                    <city>hyd</city>
+                </CurrentAddress> 
+
+    </Student> 
+
+    <Student> 
+    <FirstName>LakshmiPriya</FirstName>
+    <LastName>V</LastName>
+    <dob>1995-07-21</dob>
+    <MobileNO>9356824781</MobileNO>
+    <!--<Adress>sai nagar, hyd, 54681</Adress> -->
+    <Addresses>
+        <PermAddress>
+                    <Street>101</Street>
+                    <AddressLine1>gandhi nagar</AddressLine1>
+                    <AddressLine2>4th cross</AddressLine2>
+                    <city>hyd</city>
+        </PermAddress>   
+
+        <CurrentAddress>
+                    <Street>101</Street>
+                    <AddressLine1>gandhi nagar</AddressLine1>
+                    <AddressLine2>4th cross</AddressLine2>
+                    <city>hyd</city>
+                </CurrentAddress> 
+
+    </Student> 
+</Students>    

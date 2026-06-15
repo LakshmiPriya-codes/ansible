@@ -1,5 +1,5 @@
 - name: ping the server
-  hosts: frontend
+  hosts: Frontend
   tasks: #tasks == module == collection 
   - name: ping the server
     ping: # ansible.builtin.pin

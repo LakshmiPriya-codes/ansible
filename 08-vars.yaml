@@ -1,6 +1,6 @@
 - name: demo on vars 
-  hosts: local
-  connection: local
+  hosts: frontend
+ # connection: frontend
   tasks: 
    - name: "print information"
      debug:

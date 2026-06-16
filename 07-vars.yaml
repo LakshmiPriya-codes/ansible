@@ -10,8 +10,9 @@
       prompt: "Please enter password"
       private: True
 
-  tasks: "print information"
-  debug:
-   msg: "Username is: {{ username }}, password is: {{ password }}"  
+  tasks: 
+   - name: "print information"
+     debug:
+       msg: "Username is: {{ username }}, password is: {{ password }}"  
 
 

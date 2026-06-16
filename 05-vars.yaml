@@ -7,7 +7,8 @@
     DURATION: "150HRS"
   tasks:
    -name: print information
-    vars:
-      COURSE: "DevSecops with AIops"
-    debug:
-      msg: "Hi, I am learning {{ COURSE }}, Trainer is {{ TRAINER }}, Duration is {{ DURATION }}"
+   vars:
+   COURSE: "DevSecops with AIops"
+   debug:
+    msg: "Hi, I am learning {{ COURSE }}, Trainer is {{ TRAINER }}, Duration is {{ DURATION }}"
+  

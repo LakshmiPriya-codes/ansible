@@ -2,7 +2,7 @@
   hosts: frontend
   vars:
     full_name: "Priya from play"
-  vars_files:
+ # vars_files:
   #- course.yaml
   vars_prompt:
   - name: full_name
@@ -13,4 +13,4 @@
     vars:
       #full_name: "Priya from TASK level"
     debug:
-      #msg: "Hi, {{ full_name }}"
+      msg: "Hi, {{ full_name }}"

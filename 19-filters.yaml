@@ -6,4 +6,4 @@
   tasks:
   - name: convert string to linux
     debug:
-      msg: "Topics are: {{ topics | split(',') }}"    
+      msg: "Topics are: {{ topics | split( ',' ) }}"    

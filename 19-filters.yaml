@@ -3,6 +3,10 @@
   connection: local
   vars:
     topics: Linux , shell , Ansible , Terraform
+    tagmap: 
+     name: Ansible
+     project: roboshop
+     environment: dev
   tasks:
   - name: convert string to linux
     debug:
@@ -10,4 +14,9 @@
 
   - name: set value
     debug:
-      msg: " Hi {{ Greeting | default('Good Morning') }}"        
+      msg: " Hi {{ Greeting | default('Good Morning') }}" 
+
+
+  - name: convert map to list
+    debug:
+     msg: "{{ tagmap | dict2list }}"            

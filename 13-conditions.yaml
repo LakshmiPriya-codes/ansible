@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars: 
-   live-sessions: 6
+   live_sessions: 6
   tasks: 
   - name: is ansible more than 
     debug:

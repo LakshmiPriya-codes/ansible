@@ -19,4 +19,4 @@
 
   - name: convert map to list
     debug:
-     msg: "{{ tagmap | dict2list }}"            
+     msg: "{{ tagmap | dict2items }}"            
